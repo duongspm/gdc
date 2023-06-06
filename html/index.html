@@ -4,102 +4,423 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Games</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <title>Good Dream Company</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/slick.css">
 </head>
 <body>
-
-    <div class="header" id="header">
-        <div class="header__logo">
-            <img src="./assets/images/logo_sowg.png" alt="World Games">
-        </div>
+    <section class="header" id="header">
+        <h1 class="header__logo">
+            <img src="./assets/images/logo.png" loading="lazy" width="158" height="74" alt="Good Dream Company">
+        </h1>
         <div class="nav" id="nav">
             <ul>
                 <li>
-                    <a href="#" title="大会について">大会について</a>
-                    <div class="menu__child">
-                        <img src="assets/images/ic_triangle.png" alt="Icon Menu Child">
-                    </div>
+                    <a href="#slider" title="Top">Top</a>
                 </li>
                 <li>
-                    <a href="#" title="日本選手団">日本選手団</a>
+                    <a href="#mission" title="OUR MISSION">OUR MISSION</a>
                 </li>
                 <li>
-                    <a href="#blog " title="ニュース">ニュース</a>
+                    <a href="#philosophy" title="OUR PHILOSOPHY">OUR PHILOSOPHY</a>
                 </li>
                 <li>
-                    <a href="#" title="ギャラリー">ギャラリー</a>
+                    <a href="#business" title="BUSINESS FIELD">BUSINESS FIELD</a>
                 </li>
                 <li>
-                    <a href="#" title="コラム">コラム</a>
+                    <a href="#" title="PRODUCT">PRODUCT</a>
+                </li>
+                <li>
+                    <a href="#corporate" title="CORPORATE GUIDE">CORPORATE GUIDE</a>
                 </li>
             </ul>
             <div class="nav__close" id="nav-close">
-                <img src="assets/images/xmark-solid.png" alt="">
+                <img src="assets/images/xmark-solid.png" loading="lazy" width="25" height="25" alt="close">
             </div>
         </div>
         <div class="nav__toggle" id="nav-toggle">
-            <img src="assets/images/bars-solid.png" alt="">
+            <img src="assets/images/bars-solid.png" loading="lazy" width="25" height="25" alt="toggle">
         </div>
-    </div>
+    </section>
 
-    <div class="slider">
-        <img src="assets/images/mv.jpg" alt="一緒なら、負けない。">
+    <!-- ================= slider ================= -->
+    <div class="slider" id="slider">
+        <div class="slickk">
+            <div class="slider__items">
+                <div class="slider__image">
+                    <img src="assets/images/slider.png" loading="lazy" width="1920" height="770" alt="一緒なら、負けない。">
+                </div>
+                <p class="slider__title">
+                    We have a dream.
+                </p>
+            </div>
+            <div class="slider__items">
+                <div class="slider__image">
+                    <img src="assets/images/slider02.png" loading="lazy" width="1920" height="770"  alt="一緒なら、負けない。">
+                </div>
+                <p class="slider__title">
+                    We have
+                </p>
+            </div>
+            <div class="slider__items">
+                <div class="slider__image">
+                    <img src="assets/images/slider01.png" loading="lazy" width="1920" height="770" alt="一緒なら、負けない。">
+                </div>
+                <p class="slider__title">
+                    a dream
+                </p>
+            </div>
+        </div>
+        <div class="slider__scroll">
+            <p class="slider__scroll__text">
+                scroll
+            </p>
+        </div>
     </div>
-    <div class="banner">
-        <img src="assets/images/logo_SON.png" alt="Special Olympics">
-    </div>
-    <div class="container">
-        <div class="blog" id="blog">
-            <h1 class="blog__title">スペシャルオリンピックスの特徴</h1>
-            <div class="blog__list">
-                <div class="blog__items">
-                    <div class="blog__image">
-                        <img src="assets/images/img_01.jpg" alt="継続的なトレーニングと 成果の発表の場である競技会を提供">
-                    </div>
-                    <p class="blog__name">
-                        継続的なトレーニングと 成果の発表の場である競技会を提供
-                    </p>
+    <!-- ================= slider ================= -->
+
+    <!-- ================= mission ================= -->
+    <section class="mission" id="mission">
+        <div class="mission__title">
+            our mission &ensp; our mission
+        </div>
+        <div class="container">
+            <div class="mission__left">
+                <div class="mission__name">
+                    <img src="assets/images/icon-doc.png"  alt="Icon Mission">
+                    <p>Our mission</p>
                 </div>
-                <div class="blog__items">
-                    <div class="blog__image">
-                        <img src="assets/images/img_02.jpg" alt="ひとりひとりに合わせた プログラムの実施">
-                    </div>
-                    <p class="blog__name">
-                        ひとりひとりに合わせた プログラムの実施
-                    </p>
+                <h2 class="heading heading--mission">
+                    「<span>
+                      GOOD  
+                    </span>
+                    を目指そう」
+                </h2>
+                <h3 class="title">
+                    よい人になろう。よい製品を創り出そう。
+                </h3>
+                <p class="sub-title">Good smile company／good company／good value</p>
+                <p class="description">GOODをキーワードに、新しい価値を創り出そう。 品格と使命感で「不思議な勝ちが、転がり込んでくること」を信じ、 今を生き、楽 品格と使命感で「不思議な勝ちが、転がり込んでくること」を信じ、 今を生き、楽</p>
+            </div>
+            <div class="mission__right">
+                <img src="assets/images/img-mission.png" loading="lazy" width="638" height="360" alt="Good Dreem Company">
+            </div>
+        </div>
+    </section>
+    <!-- ================= mission ================= -->
+
+    <!-- ================= philosophy ================= -->
+    <section class="philosophy" id="philosophy">
+        <div class="philosophy__box">
+            <div class="philosophy__title">
+                Our philosophy &ensp; Our philosophy
+            </div>
+            <div class="philo__img">
+                <img src="assets/images/img-philosophy.png" loading="lazy" width="960" height="730" alt="夢の根元にある、
+                フィロソフィー">
+            </div>
+            <div class="container">
+                <div class="philosophy__left">
+                    <img src="assets/images/img-philosophy.png" loading="lazy" width="960" height="730" alt="夢の根元にある、
+                    フィロソフィー">
                 </div>
-                <div class="blog__items">
-                    <div class="blog__image">
-                        <img src="assets/images/img_03.jpg" alt="能力を充分に発揮できるよう ディビジョニングを実施">
+                <div class="philosophy__right">
+                    <div class="mission__name">
+                        <img src="assets/images/icon-doc.png" alt="Icon philosophy">
+                        <p>Our philosophy</p>
                     </div>
-                    <p class="blog__name">
-                        能力を充分に発揮できるよう ディビジョニングを実施
+                    <h2 class="heading">
+                        夢の根元にある、<br> フィロソフィー。
+                    </h2>
+                    <h3 class="title">
+                        予測不能な未来を、迷わず感性で捉える。
+                    </h3>
+                    <p class="des--philo">
+                        現状のマーケテイングは、現象を分析してから判断するものだが、それでは時代から何秒か遅れてしまう。これからは、「なんとなく」の 　現状のマーケテイングは、現象を分析してから判断するものだが、それでは時代から何秒か遅れてしまう。これからは、「なんとなく」の 　現状のマーケテイングは、現象を分析してから判断するものだが、
                     </p>
-                </div>
-                <div class="blog__items">
-                    <div class="blog__image">
-                        <img src="assets/images/img_04.jpg" alt="頑張った全てのアスリートを称え 全員を表彰 ">
-                    </div>
-                    <p class="blog__name">
-                        頑張った全てのアスリートを称え 全員を表彰 
-                    </p>
+                    <br>
+                    <br>
+                    <p class="des--philo"> 現状のマーケテイングは、現象を分析してから判断するものだが、それでは時代から何秒か遅れてしまう。これからは、「なんとなく」の　現状のマーケテイングは、現象を分析してから判断するものだが、それでは時代から何秒か遅れてしまう。これからは、「なんとなく」の</p>
                 </div>
             </div>
-            <div class="blog__viewmore">
-                <a href="" title="スペシャルオリンピックス日本公式サイトへ">スペシャルオリンピックス日本公式サイトへ
-                    <img src="assets/images/ic_link.png" alt="スペシャルオリンピックス日本公式サイトへ">
-                </a>
+        </div>
+
+        <div class="philosophy__boxlist">
+            <div class="container">
+                <div class="philosophy__boxlist__left">
+                    <h3>『不易流行』という価値基準。</h3>
+                    <p>変えてはならない創始の精神。あえて変えていくべきコト。<br class="only_pc"> 大切にしたいもの。 </p>
+                </div>
+                <div class="philosophy__list">
+                    <ol>
+                        <li>小さく始める 元に戻る</li>
+                        <li>違うことを小さく始める </li>
+                        <li>人生とは、デッサンである精神で</li>
+                        <li>1回でなく、何回も描きこんでいく </li>
+                        <li>失敗</li>
+                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="philosophy__box">
+            <div class="container">
+                <div class="philosophy__box__left">
+                    <img src="assets/images/img-philosophy-2.png" loading="lazy" width="840" height="615" alt="いつも「その先」を見つめて。">
+                </div>
+                <div class="philosophy__box__right">
+                    <h3 class="title">いつも「その先」を見つめて。</h3>
+                    <p>かつてピーター・ドラッカーが言ったように、「最大の問題は、明日何をすべきかではない。不確実な明日のために今日何をすべきかである。」 「私たちのビジネスは何ですか？」が最も重要であり、「事業とは何かを明確にする過程で顧客を深く理解できれば、新たな戦略や商品を生み出すことができる。」私は常に言葉を基本として書き続けるのが好きです。 「学ぶには、自分で体験するより良い方法はない」という言葉が常に私の心に刻まれています。それは彼の言葉に要約されます。「人の真の価値は、何を受け取ったかではなく、何を受け取ったかにある」そうです。与える。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= philosophy ================= -->
+
+    <!-- ================= Business ================= -->
+    <section class="business" id="business">
+        <div class="business__title">business field &ensp; business field</div>
+        <div class="container">
+            <div class="business__img">
+                <img src="assets/images/img-banner.png" loading="lazy" width="1280" height="756" alt="Business Field">
+            </div>
+            <div class="mission__name business__title--center">
+                <img src="assets/images/icon-doc.png" alt="Icon philosophy">
+                <p>business field</p>
+            </div>
+            <h3 class="title title--center">全国の飲食業界で使用される、<br/> あらゆる素材・形態のパッケージ・サプライヤーとして</h3>
+            <div class="business__list">
+                <div class="business__items">
+                    <p class="business__items__number">01</p>
+                    <div class="business__items__line"></div>
+                    <div class="business__items__content">
+                        <p class="business__items__name">Small lot</p>
+                        <p class="business__items__desc">小ロット</p>
+                    </div>
+                </div>
+                <div class="business__items">
+                    <p class="business__items__number">02</p>
+                    <div class="business__items__line"></div>
+                    <div class="business__items__content">
+                        <p class="business__items__name">Multi-variety</p>
+                        <p class="business__items__desc">多品種</p>
+                    </div>
+                </div>
+                <div class="business__items">
+                    <p class="business__items__number">03</p>
+                    <div class="business__items__line"></div>
+                    <div class="business__items__content">
+                        <p class="business__items__name">High quality</p>
+                        <p class="business__items__desc">高品質</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="title title--center">の供給体制を整えたビジネスを展開。</h3>
+        </div>
+        <div class="ourbusiness">
+            <div class="container">
+                <div class="ourbusiness__box__top">
+                    <div class="ourbusiness__left">
+                        <p class="ourbusiness__title">Our business</p>
+                    </div>
+                    <div class="ourbusiness__right">
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-01.png" loading="lazy" width="280" height="280"  alt="循環型経済">
+                            <div class="ourbusiness__img__link">
+                                <a title="循環型経済" href="#">循環型経済</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-02.png" loading="lazy" width="280" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="ロジスティクスの拡充" href="#">ロジスティクスの拡充</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-03.png" loading="lazy" width="280" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="再生プラスチック" href="#">再生プラスチック</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-01.png" loading="lazy" width="280" height="280"  alt="循環型経済">
+                            <div class="ourbusiness__img__link">
+                                <a title="循環型経済" href="#">循環型経済</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-02.png" loading="lazy" width="280" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="ロジスティクスの拡充" href="#">ロジスティクスの拡充</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-03.png" loading="lazy" width="280" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="再生プラスチック" href="#">再生プラスチック</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="nature">
+            <div class="container">
+                <div class="nature__box">
+                    <div class="nature__left">
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-07.png" loading="lazy" width="420" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="リターナブル製品" href="#">リターナブル製品</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-08.png" loading="lazy" width="420" height="280" alt="">
+                            <div class="ourbusiness__img__link">
+                                <a title="リターナブル製品" href="#">リターナブル製品</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nature__right">
+                        <p class="ourbusiness__title">community &</p>
+                        <p class="ourbusiness__title"> nature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="education">
+            <div class="container">
+                <div class="education__box">
+                    <div class="education__box__left">
+                        <p class="ourbusiness__title">education</p>
+                    </div>
+                    <div class="education__box__right">
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-10.png" loading="lazy" width="420" height="280" alt="子育てのサポート～保育所の完備">
+                            <div class="ourbusiness__img__link">
+                                <a title="子育てのサポート～保育所の完備" href="#">子育てのサポート～保育所の完備</a>
+                            </div>
+                        </div>
+                        <div class="ourbusiness__img">
+                            <img src="assets/images/img-09.png" loading="lazy" width="420" height="280" alt="食育活動">
+                            <div class="ourbusiness__img__link">
+                                <a title="食育活動" href="#">食育活動</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= Business ================= -->
+    
+    <!-- ================= Corporate ================= -->
+    <section class="corporate" id="corporate">
+        <div class="corporate__title">
+            corporate guide &ensp; corporate guide
+        </div>
+        <div class="container">
+            <div class="corporate__box">
+                <div class="corporate__left">
+                    <div class="mission__name">
+                        <img src="assets/images/icon-doc.png" alt="Icon philosophy">
+                        <p>corporate guide</p>
+                    </div>
+                    <h3 class="title title--corporate">会社概要</h3>
+                </div>
+                <div class="corporate__right">
+                    <table>
+                        <tr>
+                            <td><p>社名</p></td>
+                            <td>株式会社 グッドドリームカンパニー</td>
+                        </tr>
+                        <tr>
+                            <td><p>代表取締役</p></td>
+                            <td>金光憲正</td>
+                        </tr>
+                        <tr>
+                            <td><p>本社</p></td>
+                            <td>広島県福山市御幸町大字森脇1019-3</td>
+                        </tr> 
+                        <tr>
+                            <td><p>業務内容</p></td>
+                            <td class="td-radio">
+                                <div>
+                                    <input type="radio" id="radio1" name="radio" value="和洋紙、板紙及びパッキングケースの販売">
+                                    <label for="html">和洋紙、板紙及びパッキングケースの販売</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio2" name="radio" value="各種放送資材の製造、販売">
+                                    <label for="radio2">各種放送資材の製造、販売</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio3" name="radio" value="合成樹脂の製造、加工、販売">
+                                    <label for="radio3">合成樹脂の製造、加工、販売</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Corporate ================= -->
+    <div class="container">
+        <div class="contact">
+            <div class="contact__left">
+                <img src="assets/images/img-footer.png" alt="ジャパニーズベントウ キョウト">
+            </div>
+            <div class="contact__right">
+                <div class="contact__img">
+                    <img src="assets/images/img-logo-ft.png" alt="ジャパニーズベントウ キョウト">
+                </div>
+                <div class="contact__title">
+                    <p>ジャパニーズベントウ キョウト</p>
+                    <span></span>
+                </div>
+                <a class="contact__btn" href="#" title="詳しくはこちら">詳しくはこちら</a>
             </div>
         </div>
     </div>
-    <footer>
+    <!--======================== Scroll-up ========================-->
+    <a href="#slider" class="scrollup" id="scroll-up">
+        <img src="assets/images/arrow-up-solid.png" alt="Scroll Up">
+    </a>  
+    <footer class="footer">
         <div class="footer__content">
-            <p>益財団法人 スペシャルオリンピックス日本</p>
-            <span>Copyright © Special Olympics Nippon Foundation All Right Reserved.</span>
+            <span>© GOOD DREAM COMPANY inc. All Rights Reserved.</span>
         </div>
     </footer>
+
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/js/slick/slick.js"></script>
+    <script src="./assets/js/slick/slider-slick.js"></script>
+
+
+    <script>
+        window.WebFontConfig = {
+            google: { families: ['Poppins:400,500,700','Noto+Serif+JP:400,700','Noto+Serif+JP'] },
+            active: function() {
+            sessionStorage.fonts = true;
+            }
+            };
+            (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
 </body>
 </html>
